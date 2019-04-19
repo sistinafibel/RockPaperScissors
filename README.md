@@ -12,6 +12,11 @@ Node 가위바위보 API
 WEB API (GET) :: http://211.239.124.243:19921/RockPaperScissors?keyword=도움말 <br>
 JANDI (POST) :: http://211.239.124.243:19921/RockPaperScissors
 
+* 잔디와 연동하여 사용하기
+  * 잔디 오른쪽 상단에 있는 커넥트 버튼을 클릭한뒤 > Webhook 발신 - 연동항목 추가하기 선택
+  * URL에 위에 있는 POST URL을 입력해주고 , 시작 키워드는 '/가위바위보'로 입력해줍니다.
+  * 이후 설정 저장하기를 누르면 커넥트 연결 완료.
+ 
 
 실행방법
 --------
