@@ -39,3 +39,8 @@ JSON : http://127.0.0.1:3080/RockPaperScissors?keyword=키워드
 | userSelection | 사용자가 보낸값을 리턴합니다. | 가위,바위,보 | GET|
 | aiSelection | 컴퓨터가 선택한값을 리턴합니다. | 가위,바위,보 | GET|
 | winnerRetrun | 결과의 승자를 리턴합니다. | user (유저) , computer (컴퓨터) , tieGame (무승부) | GET|
+
+
+끗
+--------
+![IMAGE ALT TEXT](https://user-images.githubusercontent.com/36251104/56404769-7abe6480-62a3-11e9-95f3-c46cae484bb4.PNG)
