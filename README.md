@@ -22,7 +22,7 @@ JANDI (POST) :: http://211.239.124.243:19921/RockPaperScissors
 --------
 <pre><code>#node 설치후
 > npm install
-> node rockpaperscissorsAPI.js
+> node src/index.js
 </code></pre>
 
 호출방법
