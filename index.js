@@ -40,10 +40,10 @@ app.post('/RockPaperScissors', function(req, res) {
         botReterun = "Sistinafibel (https://github.com/sistinafibel/RockPaperScissors)";
     }
     //가위바위보 시작
-    else if (userSelection == "가위" && botSelection[result] == "바위" || userSelection == "바위" && botSelection[result] == "보" || userSelection == "보" && botSelection[result] == "가위") {
+    else if (rock == "가위" && botSelection[result] == "바위" || rock == "바위" && botSelection[result] == "보" || rock == "보" && botSelection[result] == "가위") {
         botReterun = botReterun + "[컴퓨터 승리]";
 
-    }else if (userSelection == "가위" && botSelection[result] == "보" || userSelection == "바위" && botSelection[result] == "가위" || userSelection == "보" && botSelection[result] == "바위") {
+    }else if (rock == "가위" && botSelection[result] == "보" || rock == "바위" && botSelection[result] == "가위" || rock == "보" && botSelection[result] == "바위") {
         botReterun = botReterun + "[인간 승리]";
     }else {
         botReterun = botReterun + "가위바위보가 아닌것 같아요. 상세 명령어는 도움말을 입력해주세요.";
